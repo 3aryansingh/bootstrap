@@ -5,4 +5,5 @@ group :development, :test do
   gem 'jekyll-redirect-from', '~> 0.14.0'
   gem 'jekyll-sitemap', '~> 1.2.0'
   gem 'jekyll-toc', '~> 0.7.1'
+  gem "wdm", "~> 0.1.1" if Gem.win_platform?
 end
